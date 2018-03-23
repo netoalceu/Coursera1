@@ -1,3 +1,9 @@
-import math
+def troca(x, y):
+    aux = x
+    x = y
+    y = aux
 
-print(math.sqrt(9))
+x = 10
+y = 20
+troca (x,y)
+print("x =", x,"e y =",y)

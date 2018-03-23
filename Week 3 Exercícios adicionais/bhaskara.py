@@ -12,7 +12,6 @@ else:
     else:
         x1=(-b + math.sqrt(b**2-4*a*c))/(2*a)
         x2=(-b - math.sqrt(b**2-4*a*c))/(2*a)
-        print(x1,x2)
         if(x1<x2):
             print("as raízes da equação são %0.2f e %0.2f" %(x1,x2))
         else:
